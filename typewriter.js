@@ -8,20 +8,9 @@ for (const char of sentence) {
    delay += 50;
 }
 
-// for (let i = 0; i <= sentence.length; i++) {
-  
-//   if (i < sentence.length) {
-//     setTimeout(() => {
-//       process.stdout.write(sentence[i]);
-//      }, delay)
-//      delay += 50;
-//   }
-
-//   else if (i === sentence.length) {
-//     console.log('\n');
-//   }
-  
-// }
+setTimeout(() => {
+  process.stdout.write('\n');
+}, delay);
 
 
 
